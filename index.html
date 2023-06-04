@@ -23,10 +23,15 @@
   <body>
     <header>
       <nav>
-        <a href="" class="navlink">PORTFOLIO</a>
+        <a
+          href="dmr1991.github.io/portfolio2023-eng/"
+          class="navlink"
+          target="”_blank”"
+          >PORTFOLIO</a
+        >
         <ul class="navicons">
           <li>
-            <a href=""
+            <a href="https://github.com/dmr1991" target="”_blank”"
               ><img
                 class="navimgs github p-1"
                 src="images/GitHub-Logo.png"
@@ -34,8 +39,13 @@
             /></a>
           </li>
           <li>
-            <a href=""
-              ><img class="navimgs linkedin p-1" src="images/linkedin_white.png" alt=""
+            <a
+              href="https://www.linkedin.com/in/dina-morales-rivera/"
+              target="”_blank”"
+              ><img
+                class="navimgs linkedin p-1"
+                src="images/linkedin_white.png"
+                alt=""
             /></a>
           </li>
         </ul>
@@ -47,27 +57,27 @@
           <h1>BYNARY CODE ENCRYPTER</h1>
           <div class="row">
             <div class="container flex-column col">
-              <textarea
+              <textarea 
                 class="inputbox"
                 name=""
-                id=""
+                id="input"
                 cols="30"
                 rows="10"
                 placeholder="Enter the message you want to encrypt:"
               ></textarea>
               <div class="d-grid gap-2 d-md-block buttonset">
-                <button class="btn btn-primary" type="button">Encrypt</button>
-                <button class="btn btn-primary" type="button">Clear</button>
+                <button class="btn btn-primary" id="encrypt" type="button">Encrypt</button>
+                <button class="btn btn-primary" id="clear" type="button">Clear</button>
               </div>
             </div>
             <div class="col">
-              <textarea
+              <textarea 
                 class="binarybox"
                 name=""
-                id=""
+                id="output"
                 cols="30"
                 rows="10"
-                placeholder="The encrypted message will appear here:"
+                placeholder="The encrypted message will display from left to right:"
               ></textarea>
             </div>
           </div>
@@ -82,5 +92,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

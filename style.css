@@ -1,5 +1,10 @@
 body {
   background-color: #8d938d;
+  background-image: url("images/pattern1.png");
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: auto;
   font-family: "Roboto Mono", monospace;
   padding: 1.5em 5em 5em 5em;
   height: 100%;
@@ -70,7 +75,7 @@ h1 {
   margin-bottom: 1em;
   color: white;
   font-size: 3em;
-  text-shadow: 0 0 20px #fff;
+  text-shadow: 0 0 15px #6c6c6c;
 }
 textarea {
   margin: 3em;
@@ -78,10 +83,13 @@ textarea {
   border-radius: 10px;
   color: #8d938d;
   padding: 2em;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border: 2px solid #8d938d;
 }
 .inputbox {
   width: 50vh;
   height: 35vh;
+  text-align: center;
 }
 .binarybox {
   width: 50vh;
@@ -92,7 +100,7 @@ textarea {
 }
 .btn-primary {
   background-color: white !important;
-  border: 1px solid white !important;
+  border: 2px solid #8d938d !important;
   color: #8d938d;
   border-radius: 25px;
   padding: 0.7em 3em;
@@ -103,6 +111,7 @@ textarea {
 .btn-primary:hover {
   background-color: #8d938d !important;
   scale: 102%;
+  border: 2px solid white !important;
 }
 
 /*QUERIES FOR RESPONSIVENESS*/
